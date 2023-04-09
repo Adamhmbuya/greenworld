@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Architect Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="home">
+		<div class="overlay">
+			<h1>Welcome to My Portfolio</h1>
+			<p>Explore my work and see how I can help bring your ideas to life.</p>
+			<a href="#portfolio" class="btn">View Portfolio</a>
+		</div>
+	</section>
+
+	<section id="portfolio">
+		<div class="container">
+			<h2>Portfolio</h2>
+			<div class="gallery">
+				<img src="img/project1.jpg" alt="Project 1">
+				<img src="img/project2.jpg" alt="Project 2">
+				<img src="img/project3.jpg" alt="Project 3">
+				<img src="img/project4.jpg" alt="Project 4">
+							
+			</div>
+			<p class="caption">Click on the images to view more details about each project.</p>
+		</div>
+	</section>
+
+	<section id="about">
+		<div class="container">
+			<h2>About Me</h2>
+			<p>As an architect, I have a passion for creating beautiful, functional spaces that meet the needs of my clients. With years of experience in the field, I am confident in my ability to turn your vision into reality. </p>
+		</div>
+	</section>
+
+	<section id="contact">
+		<div class="container">
+			<h2>Contact Me</h2>
+			<form action="#" method="post">
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="message">Message</label>
+				<textarea id="message" name="message" required></textarea>
+
+				<input type="submit" value="Send Message">
+			</form>
+		</div>
+	</section>
+
+	<footer>
+		<p>&copy; 2023 | Architect Portfolio</p>
+	</footer>
+</body>
+</html>
